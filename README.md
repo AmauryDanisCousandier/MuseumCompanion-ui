@@ -1,2 +1,2 @@
-# VideoGames_MuseumCompanion
+# VideoGames MuseumCompanion
 video games collection helper
