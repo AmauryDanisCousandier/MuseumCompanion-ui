@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'videogameMuseumcompanion';
+  gameNbr = 5;
+  consoleNbr = 6;
+  accessNbr = 12;
+  // @Input() gameNbr = Number;
+  // @Input() consoleNbr = Number;
+  // @Input() accessNbr = Number;
 }

@@ -42,7 +42,7 @@ p {
 }
 
 .title{
-  margin-bottom: 1%;
+  margin-bottom: 5%;
   font-size: 23px;
   font-weight: 600;
 }
@@ -61,12 +61,25 @@ p {
 }
 
 .content input {
-  border: 2px solid red;
+  border: 2px solid #555;
   border-radius: 4px;
 }
 
+.content mat-card {
+  margin-top: 5%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+mat-card p {
+  padding-top: 3%;
+
+}
+
 input[type=text]:focus {
-    border: 3px solid #555;
+    border: 3px solid #aa0000;
     outline: none;
   }
 
