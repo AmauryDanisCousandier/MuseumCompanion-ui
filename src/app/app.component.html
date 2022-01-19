@@ -10,13 +10,29 @@
 <div class="content">
   <span class="title">Museum Companion</span>
   <input type="text" placeholder="Search for an Item...">
-  <mat-card>
+  <mat-card class="quickstats">
     <h2>Quick Stats</h2>
     <p>🎴 Games: {{gameNbr}}</p>
     <p>🎮 Consoles: {{consoleNbr}}</p>
     <p>🦾 Others: {{accessNbr}}</p>
   </mat-card>
   <mat-card>
-    <h2>Add Item</h2>
+    <h2 class="additem">Add Item</h2>
+    <input type="text" placeholder="Item name">
+    <input type="number" placeholder="Year" min="1960">
+    <input type="color">
+    <label for="avatar">Choose picture:</label>
+
+    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+
+    <mat-slide-toggle>Loose</mat-slide-toggle>
+    <mat-slide-toggle>Box</mat-slide-toggle>
+    <mat-slide-toggle>Manual</mat-slide-toggle>
+    <mat-slide-toggle>Accessories</mat-slide-toggle>
+    <mat-slide-toggle>Brand new</mat-slide-toggle>
+    <input type="text" placeholder="Description">
+    <button mat-fab color="warn" aria-label="submit item">
+      <mat-icon>add</mat-icon>
+    </button>
   </mat-card>
 </div>
