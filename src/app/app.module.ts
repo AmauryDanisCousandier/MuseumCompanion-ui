@@ -8,10 +8,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AddItemComponent } from './add-item/add-item.component';
+import { QuickStatsComponent } from './quick-stats/quick-stats.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddItemComponent,
+    QuickStatsComponent
   ],
   imports: [
     BrowserModule,

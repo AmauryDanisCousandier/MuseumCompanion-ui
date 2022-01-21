@@ -1,0 +1,17 @@
+mat-card {
+    margin-top: 5%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  mat-card p {
+    padding-top: 3%;
+  
+  }
+  
+  input[type=text]:focus {
+      border: 3px solid #aa0000;
+      outline: none;
+    }
