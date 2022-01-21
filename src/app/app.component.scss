@@ -63,6 +63,7 @@ p {
 .content input {
   border: 2px solid #555;
   border-radius: 4px;
+  margin-top: 2%;
 }
 
 .content mat-card {
@@ -84,14 +85,18 @@ input[type=text]:focus {
   }
 
 footer {
-  margin-top: 8px;
-  display: flex;
+  margin-top: 5%;
+  // display: flex;
   align-items: center;
   line-height: 20px;
 }
 footer a {
   display: flex;
   align-items: center;
+}
+
+mat-slide-toggle{
+  margin-bottom: 2%;
 }
 /* Responsive Styles */
 @media screen and (max-width: 767px) {
