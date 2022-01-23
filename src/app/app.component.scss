@@ -76,7 +76,6 @@ p {
 
 mat-card p {
   padding-top: 3%;
-
 }
 
 input[type=text]:focus {
@@ -86,7 +85,6 @@ input[type=text]:focus {
 
 footer {
   margin-top: 5%;
-  // display: flex;
   align-items: center;
   line-height: 20px;
 }
@@ -114,11 +112,5 @@ mat-slide-toggle{
   svg#rocket-smoke {
     right: 120px;
     transform: rotate(-5deg);
-  }
-}
-@media screen and (max-width: 575px) {
-  svg#rocket-smoke {
-    display: none;
-    visibility: hidden;
   }
 }
