@@ -1,0 +1,37 @@
+// mat-card {
+//   margin-top: 5%;
+//   width: 30%;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+// }
+
+p {
+  padding-top: 3%;
+}
+
+input {
+  border: 2px solid #555;
+  border-radius: 4px;
+  margin-top: 2%;
+}
+
+
+input[type=text]:focus {
+  border: 3px solid #aa0000;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .card-container > *:not(.circle-link) ,
+  .terminal {
+    width: 100%;
+  }
+  .card:not(.highlight-card) {
+    height: 16px;
+    margin: 8px 0;
+  }
+  .card.highlight-card span {
+    margin-left: 72px;
+  }
+}

@@ -8,25 +8,24 @@
 :host {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 14px;
-  color: #333;
+  color: rgb(255, 255, 255);
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+
+h1 h2 h3 h4 h5 h6 {
   margin: 8px 0;
 }
+
 p {
   margin: 0;
 }
+
 .spacer {
   flex: 1;
 }
+
 .toolbar {
   position: absolute;
   top: 0;
@@ -35,16 +34,16 @@ p {
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: #aa0000;
+  background-color: #860000;
   color: white;
   font-size: large;
   font-weight: 600;
 }
 
 .title{
-  margin-bottom: 5%;
   font-size: 23px;
   font-weight: 600;
+  text-align: center;
 }
 
 .toolbar img {
@@ -52,30 +51,23 @@ p {
 }
 
 .content {
-  display: flex;
+  // display: flex;
   margin: 82px auto 32px;
-  padding: 0 16px;
-  max-width: 960px;
-  flex-direction: column;
-  align-items: center;
+  // padding: 0 16px;
+  max-width: 70%;
+  // flex-direction: column;
+  // align-items: center;
+}
+
+.component {
+  margin-bottom: 10%;
 }
 
 .content input {
   border: 2px solid #555;
   border-radius: 4px;
-}
-
-.content mat-card {
-  margin-top: 5%;
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-mat-card p {
-  padding-top: 3%;
-
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 input[type=text]:focus {
@@ -84,36 +76,10 @@ input[type=text]:focus {
   }
 
 footer {
-  margin-top: 8px;
-  display: flex;
-  align-items: center;
-  line-height: 20px;
+  text-align: center;
+  margin-top: 5%;
 }
-footer a {
-  display: flex;
-  align-items: center;
-}
-/* Responsive Styles */
-@media screen and (max-width: 767px) {
-  .card-container > *:not(.circle-link) ,
-  .terminal {
-    width: 100%;
-  }
-  .card:not(.highlight-card) {
-    height: 16px;
-    margin: 8px 0;
-  }
-  .card.highlight-card span {
-    margin-left: 72px;
-  }
-  svg#rocket-smoke {
-    right: 120px;
-    transform: rotate(-5deg);
-  }
-}
-@media screen and (max-width: 575px) {
-  svg#rocket-smoke {
-    display: none;
-    visibility: hidden;
-  }
+
+mat-slide-toggle{
+  margin-bottom: 2%;
 }
