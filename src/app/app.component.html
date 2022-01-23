@@ -7,13 +7,15 @@
   <span>Welcome 🕹</span>
   <div class="spacer"></div>
 </div>
-<div class="content" col-12>
-  <span class="title">🕰 Museum Companion 📚</span>
-  <input type="text" placeholder="Search for an Item...">
-  <app-quick-stats></app-quick-stats>
-  <app-add-item></app-add-item>
-  <footer>
-    <a>Made With ❤ by Amaury</a>
-    <a>AMSoft ©2022</a>
-  </footer>
+<div class="container-fluid" class="content">
+  <div class="row">
+    <span class="title">🕰 Museum Companion 📚</span>
+    <input type="text" placeholder="Search for an Item...">
+    <app-quick-stats class="component" class="col-sm-6"></app-quick-stats>
+    <app-add-item class="component" class="col-sm-6"></app-add-item>
+    <footer class="col-sm-12">
+      <p>Made With ❤ by Amaury</p>
+      <p>AMSoft ©2022</p>
+    </footer>
+  </div>
 </div>
