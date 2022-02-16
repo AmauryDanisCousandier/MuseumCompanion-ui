@@ -43,6 +43,15 @@ p {
 .title{
   font-size: 23px;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input{
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
   text-align: center;
 }
 
@@ -51,12 +60,8 @@ p {
 }
 
 .content {
-  // display: flex;
   margin: 82px auto 32px;
-  // padding: 0 16px;
-  max-width: 70%;
-  // flex-direction: column;
-  // align-items: center;
+  max-width: 95%;
 }
 
 .component {

@@ -1,0 +1,29 @@
+input {
+    border: 2px solid #555;
+    border-radius: 4px;
+    margin-top: 2%;
+}
+
+input[type=text]:focus {
+    border: 3px solid #aa0000;
+    outline: none;
+}
+
+.info {
+    display: flex;
+    
+}
+
+@media screen and (max-width: 767px) {
+    .card-container > *:not(.circle-link) ,
+    .terminal {
+        width: 100%;
+    }
+    .card:not(.highlight-card) {
+        height: 16px;
+        margin: 8px 0;
+    }
+    .card.highlight-card span {
+        margin-left: 72px;
+    }
+}
